@@ -1,6 +1,6 @@
 # Multi-Band PLL-Based RF Signal Generation System
 
-This project presents the design and implementation of a multi-band RF signal generation and filtering system based on a PLL-VCO architecture using the ADF4351.
+Final-year Electronics and Communication Engineering student project focused on multi-band RF signal generation and filtering using a PLL-VCO architecture.
 
 ## System Overview
 
@@ -9,23 +9,22 @@ The system generates RF signals at:
 - 0.9 GHz
 - 1.2 GHz
 
-Signals are routed through switchable LC band-pass filters using RF switches to achieve a clean and selectable output.
+Signals are routed through switchable LC band-pass filters via RF switches to achieve a clean and selectable output.
 
 ## Key Components
 
 - ADF4351 PLL-VCO (25 MHz reference)
-- MCU (SPI + GPIO control)
+- MCU (SPI & GPIO control)
 - Dual SP3T RF switches
 - LC Band-Pass Filters (~200 MHz bandwidth)
 
 ## Design Highlights
 
-- RF simulation using AWR Microwave Office  
-- Harmonic suppression (up to ~70 dB)  
+- RF simulation (AWR Microwave Office)  
+- Harmonic suppression up to ~70 dB  
 - 4-layer PCB design (KiCad)  
 - 50Ω controlled impedance RF traces  
-- RF and digital separation  
-- Via stitching for grounding  
+- RF/digital isolation and via stitching  
 
 ## Performance
 
@@ -40,6 +39,11 @@ Signals are routed through switchable LC band-pass filters using RF switches to 
 - PCB design  
 - Embedded systems  
 
+## Report
+
+📄 [Download Project Report](rf-pll-report.pdf)
+
 ## Author
 
 Hasan Emre Aydemir  
+Open to entry-level RF / Embedded Systems opportunities
